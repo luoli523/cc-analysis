@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import './custom.css'
 import HomeToc from './HomeToc.vue'
 import Lightbox from './Lightbox.vue'
 import Comment from './Comment.vue'

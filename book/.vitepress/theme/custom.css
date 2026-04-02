@@ -1,0 +1,27 @@
+/* Hero: 缩小文字、放大封面图 */
+.VPHero .text {
+  font-size: 2rem !important;
+  line-height: 1.3 !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important;
+}
+
+.VPHero .image-container {
+  max-width: 420px !important;
+  width: 420px !important;
+}
+
+.VPHero .image-container img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-container {
+    max-width: 460px !important;
+    width: 460px !important;
+  }
+}
