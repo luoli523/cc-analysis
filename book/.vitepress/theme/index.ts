@@ -3,6 +3,7 @@ import './custom.css'
 import HomeToc from './HomeToc.vue'
 import Lightbox from './Lightbox.vue'
 import Comment from './Comment.vue'
+import VideoPlayer from './VideoPlayer.vue'
 import { h } from 'vue'
 import { useRoute } from 'vitepress'
 import type { Theme } from 'vitepress'
@@ -12,6 +13,7 @@ export default {
   Layout() {
     const route = useRoute()
     return h(DefaultTheme.Layout, null, {
+      'nav-bar-content-after': () => h(VideoPlayer),
       'layout-bottom': () => h(Lightbox),
       'doc-after': () => route.path !== '/' ? h(Comment) : null,
     })
