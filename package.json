@@ -1,0 +1,14 @@
+{
+  "name": "cc-analysis",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "解剖 Claude Code — 从 512K 行源码中提炼的 Agent 工程方法论",
+  "scripts": {
+    "docs:dev": "vitepress dev book --port 5175",
+    "docs:build": "vitepress build book",
+    "docs:preview": "vitepress preview book"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

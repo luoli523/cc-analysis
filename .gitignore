@@ -1,0 +1,4 @@
+node_modules/
+book/.vitepress/dist/
+book/.vitepress/cache/
+.DS_Store
