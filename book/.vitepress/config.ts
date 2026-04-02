@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/cc-analysis/',
-  title: '解剖 Claude Code',
+  title: 'Claude Code源码剖析',
   description: '从 512K 行源码中提炼的 Agent 工程方法论',
   lang: 'zh-CN',
 
   themeConfig: {
-    siteTitle: '解剖 Claude Code',
+    siteTitle: 'Claude Code源码剖析',
 
     nav: [
       { text: '首页', link: '/' },
@@ -53,13 +53,6 @@ export default defineConfig({
           { text: '第10章：Bridge 与协议层', link: '/part4-integration/ch10-bridge-protocol' },
           { text: '第11章：Skill、Plugin、Hook 三层扩展', link: '/part4-integration/ch11-skill-plugin-hook' },
           { text: '第12章：10 个 Agent 工程模式', link: '/part4-integration/ch12-agent-patterns' },
-        ],
-      },
-      {
-        text: '附录',
-        collapsed: true,
-        items: [
-          { text: '配图 Prompt 参考', link: '/appendix/image-prompts' },
         ],
       },
     ],

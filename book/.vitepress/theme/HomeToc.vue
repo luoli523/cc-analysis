@@ -47,11 +47,6 @@
 
     </div>
 
-    <div class="toc-appendix">
-      <span class="apx-label">附录</span>
-      <a href="/cc-analysis/appendix/image-prompts">配图 Prompt 参考</a>
-    </div>
-
   </div>
 </template>
 
