@@ -2,7 +2,7 @@
 
 > 从 512K 行泄露源码中提炼的 Agent 工程方法论
 
-在线阅读：**https://luoli523.github.io/cc-analysis/**
+在线阅读：**https://guige.ai/cc-analysis/**
 
 ## 内容简介
 
